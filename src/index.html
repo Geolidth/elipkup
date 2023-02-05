@@ -7,7 +7,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="style.css">
     <title>Feladat 0327</title>
 </head>
 
@@ -20,20 +19,20 @@
             <div class="text-center">
                 <h4>Kérem adja meg az ellipszis sugarait</h4>
             </div>
-            <div class="col-4 mt-3"><input type="text" class="form-control" placeholder="r1 sugár"></div>
-            <div class="col-4 mt-3"><input type="text" class="form-control" placeholder="r2 sugár"></div>
-            <div class="col-4 mt-3"><input type="text" class="form-control" placeholder="h magasság"></div>
+            <div class="col-4 mt-3">"r1" sugár<input type="text" class="form-control" id="r1" placeholder="r1 sugár"></div>
+            <div class="col-4 mt-3">"r2" sugár<input type="text" class="form-control" id="r2" placeholder="r2 sugár"></div>
+            <div class="col-4 mt-3">"h" magasság<input type="text" class="form-control" id="h" placeholder="h magasság"></div>
         </div>
         <div class="row">
             
-            <div class="text-center mt-3"><button class="btn btn-primary">Számol</button></div>
-            <div class="col-4"></div><div class="col-4 mt-3"><input type="text" readonly class="form-control" placeholder="A kúp térfogata"></div>
+            <div class="text-center mt-3"><button class="btn btn-primary" id="calc">Számol</button></div>
+            <div class="col-4"></div><div class="col-4 mt-3"><input type="text" readonly id="eredmeny" class="form-control" placeholder="A kúp térfogata"></div>
         </div>
     </div>
 
     <script src="app.js"></script>
 
-    <div class="about text-center fixed-bottom mb-3">Csajbók-Reményi László SZOFT-1/2/E 2023.02.05.</div>
+    <div class="text-center fixed-bottom mb-3">Csajbók-Reményi László SZOFT-1/2/E 2023.02.05.</div>
 
 </body>
 
