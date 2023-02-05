@@ -1,3 +1,5 @@
+<!--Csajbók-Reményi László SZOFT-1/2/E 2023.02.05.-->
+
 <!DOCTYPE html>
 <html lang="hu">
 
@@ -6,15 +8,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
-    <title>Weblap</title>
+    <title>Feladat 0327</title>
 </head>
 
-<body>
+<body class="bg-info">
     <div class="container">
-        <h1>Sablon</h1>
+        <h1 class="text-center">Feladat 0327</h1>
+        <h3 style="text-align: justify;">Egy ellipszis alapú kúp térfogatát kell kiszámítani. Mivel az alap egy ellipszis így két sugara van az r1 és az r2. Ezekhez még a kúp magasságát kell megadni.</h3>
+        <div class="row">
+            <div class="text-center"><h4>Kérem adja meg az ellipszis sugarait</h4></div>
+            <div class="col-3 mt-3"> </div>
+            <div class="col-3 mt-3">r1:  <input type="text" class="form-controll" placeholder="r1 sugár"></div>
+            <div class="col-3 mt-3">r2:  <input type="text" class="form-controll" placeholder="r2 sugár"></div>
+            <div class="text-center mt-3"><button>Számol</button></div>
+            <div class="text-center mt-3"><input type="text" readonly placeholder="A kúp térfogata"></div>
+        </div>
     </div>
     
     <script src="app.js"></script>
+
+    <div class="about text-center fixed-bottom mb-3">Csajbók-Reményi László SZOFT-1/2/E 2023.02.05.</div>
 
 </body>
 
